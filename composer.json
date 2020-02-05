@@ -1,0 +1,13 @@
+{
+    "name": "rustem/php-project-lvl1",
+    "description": "simple-cli-games",
+    "license": "MIT",
+    "bin": ["bin/brain-games"],
+    "authors": [
+        {
+            "name": "Rustrm",
+            "email": "faustyanishe@gmail.com"
+        }
+    ],
+    "require": {}
+}
