@@ -1,3 +1,3 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/0bfae11eacebbad2c96f/maintainability)](https://codeclimate.com/github/Rustem-A/php-project-lvl1/maintainability)        <a href="https://codeclimate.com/github/Rustem-A/php-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/0bfae11eacebbad2c96f/test_coverage" /></a>
+[![Build Status](https://travis-ci.com/Rustem-A/php-project-lvl1.svg?branch=master)](https://travis-ci.com/Rustem-A/php-project-lvl1) [![Maintainability](https://api.codeclimate.com/v1/badges/0bfae11eacebbad2c96f/maintainability)](https://codeclimate.com/github/Rustem-A/php-project-lvl1/maintainability)        <a href="https://codeclimate.com/github/Rustem-A/php-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/0bfae11eacebbad2c96f/test_coverage" /></a>
 
 <h1>BRAIN GAMES</h1>
