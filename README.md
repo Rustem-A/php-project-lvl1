@@ -1,8 +1,16 @@
-<h1>BRAIN GAMES</h1>
+# BRAIN GAMES
 
 [![Build Status](https://travis-ci.com/Rustem-A/php-project-lvl1.svg?branch=master)](https://travis-ci.com/Rustem-A/php-project-lvl1) [![Maintainability](https://api.codeclimate.com/v1/badges/0bfae11eacebbad2c96f/maintainability)](https://codeclimate.com/github/Rustem-A/php-project-lvl1/maintainability)        <a href="https://codeclimate.com/github/Rustem-A/php-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/0bfae11eacebbad2c96f/test_coverage" /></a>
 
-<h3>Установка:</h3>
-<i>composer global require rustem/php-project-lvl1</i>
+## Установка
 
-<script id="asciicast-6kUsDInAGYVIyNe3c1ilREX1Q" src="https://asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q.js" async></script>
+```
+$ composer global require rustem/php-project-lvl1
+```
+# Игры
+
+### brain-even
+
+Правила игры: пользователю показывается случайное число. Необходимо ответить yes, если число четное, или no - если нечетное. Для победы надо правильно ответить три раза.
+
+<script id="asciicast-6kUsDInAGYVIyNe3c1ilREX1Q" src="https:/asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q.js" async></script>
