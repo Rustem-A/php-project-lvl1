@@ -2,7 +2,7 @@
     "name": "rustem/php-project-lvl1",
     "description": "simple-cli-games",
     "license": "MIT",
-    "bin": ["bin/brain-games"],
+    "bin": ["bin/brain-even"],
     "authors": [
         {
             "name": "Rustem",

@@ -5,9 +5,24 @@ namespace BrainGames\Cli;
 use function cli\line;
 use function cli\prompt;
 
-function run()
+function run($description, callable $foo, $times = 3)
 {
-    line('Welcome to the Brain Games!');
+    line('Welcome to the Brain 2ames!');
+    line($description);
     $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
+    line("Hello, %s!", PHP_EOL, $name);
+
+    for ($i = 0; $i < $times; $i++) {
+        [$question, $correctAnswer] = $foo();
+        line("Question, %s: ", $question);
+        $userAnswer = prompt('Your answer: ');
+
+        if ($userAnswer == $correctAnswer) {
+            line("Correct!");
+        } else {
+            line("'Yes' is wrong answer, correct answer was 'no'.");
+            line("Let's try again, %s!", $name);
+            return;
+        }
+    }
 }
