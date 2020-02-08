@@ -10,19 +10,20 @@ function run($description, callable $foo, $times = 3)
     line('Welcome to the Brain 2ames!');
     line($description);
     $name = prompt('May I have your name?');
-    line("Hello, %s!", PHP_EOL, $name);
+    line("Hello, %s! \n", $name);
 
     for ($i = 0; $i < $times; $i++) {
         [$question, $correctAnswer] = $foo();
-        line("Question, %s: ", $question);
-        $userAnswer = prompt('Your answer: ');
+        line("Question: %s", $question);
+        $userAnswer = prompt('Your answer ');
 
         if ($userAnswer == $correctAnswer) {
-            line("Correct!");
+            line("Correct! \n");
         } else {
             line("'Yes' is wrong answer, correct answer was 'no'.");
             line("Let's try again, %s!", $name);
             return;
         }
     }
+    line('Congratulations, %s!', $name);
 }
