@@ -13,4 +13,4 @@ $ composer global require rustem/php-project-lvl1
 
 Правила игры: пользователю показывается случайное число. Необходимо ответить yes, если число четное, или no - если нечетное. Для победы надо правильно ответить три раза.
 
-<script id="asciicast-6kUsDInAGYVIyNe3c1ilREX1Q" src="https:/asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q.js" async></script>
+[![asciicast](https://asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q.svg)](https://asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q)
