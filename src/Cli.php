@@ -13,14 +13,14 @@ function run($description, callable $foo, $times = 3)
     line("Hello, %s! \n", $name);
 
     for ($i = 0; $i < $times; $i++) {
-        [$question, $correctAnswer] = $foo();
+        [$question, $correct] = $foo();
         line("Question: %s", $question);
         $userAnswer = prompt('Your answer ');
 
-        if ($userAnswer == $correctAnswer) {
+        if ($userAnswer == $correct) {
             line("Correct! \n");
         } else {
-            line("'Yes' is wrong answer, correct answer was 'no'.");
+            line("'$userAnswer' is wrong answer, correct answer was '$correct'.");
             line("Let's try again, %s!", $name);
             return;
         }
