@@ -18,7 +18,7 @@ function play()
                   $preResult .= '.. ';
                   $correctNum = $i;
             } else {
-                $preResult .= $i.' ';
+                $preResult .= $i . ' ';
             }
         }
 
