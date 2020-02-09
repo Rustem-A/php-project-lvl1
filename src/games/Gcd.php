@@ -26,18 +26,22 @@ function play()
         }
 
         $commonDividers = array_uintersect(
-            $dividersNum1, $dividersNum2, function ($a, $b) {
+            $dividersNum1,
+            $dividersNum2,
+            function ($a, $b) {
                 return $a <=> $b;
             }
         );
 
         $largestDivider = array_reduce(
-            $commonDividers, function ($carry, $item) {
+            $commonDividers,
+            function ($carry, $item) {
                 if ($item > $carry) {
                     $carry = $item;
                 }
                 return $carry;
-            }, $commonDividers[0]
+            },
+            $commonDividers[0]
         );
 
         $question = "$num1 $num2";
