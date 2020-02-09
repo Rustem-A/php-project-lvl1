@@ -15,17 +15,17 @@ function play()
         $operand = $operands[rand(0, 2)];
 
         switch ($operand) {
-        case "-":
-            $result = $num - $num2;
-            break;
-        case "+":
-            $result = $num + $num2;
-            break;
-        case "*":
-            $result = $num * $num2;
-            break;
-        default:
-            return false;
+            case "-":
+                $result = $num - $num2;
+                break;
+            case "+":
+                $result = $num + $num2;
+                break;
+            case "*":
+                $result = $num * $num2;
+                break;
+            default:
+                return false;
         }
         
         $question = "$num$operand$num2";
