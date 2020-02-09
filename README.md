@@ -14,7 +14,7 @@ $ composer global require rustem/php-project-lvl1
 $ brain-even
 ```
 
-Правила игры: пользователю показывается случайное число. Необходимо ответить yes, если число четное, или no - если нечетное. Для победы надо правильно ответить три раза.
+Правила игры: пользователю показывается случайное число. Необходимо ответить yes, если число четное, или no - если нечетное.
 
 [![asciicast](https://asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q.svg)](https://asciinema.org/a/6kUsDInAGYVIyNe3c1ilREX1Q)
 
@@ -23,6 +23,15 @@ $ brain-even
 $ brain-calc
 ```
 
-Правила игры: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ. Для победы надо правильно ответить три раза.
+Правила игры: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
 [![asciicast](https://asciinema.org/a/Nbgw7ulFD5CQubx5z4uaGz9Bz.svg)](https://asciinema.org/a/Nbgw7ulFD5CQubx5z4uaGz9Bz)
+
+### brain-gcd
+```
+$ brain-gcd
+```
+
+Правила игры: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+[![asciicast](https://asciinema.org/a/WUe1dWhAsHwtJBR3QT67ukJOF.svg)](https://asciinema.org/a/WUe1dWhAsHwtJBR3QT67ukJOF)
