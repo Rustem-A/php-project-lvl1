@@ -36,7 +36,7 @@ $ brain-gcd
 
 [![asciicast](https://asciinema.org/a/WUe1dWhAsHwtJBR3QT67ukJOF.svg)](https://asciinema.org/a/WUe1dWhAsHwtJBR3QT67ukJOF)
 
-### brain-gcd
+### brain-progression
 ```
 $ brain-progression
 ```
@@ -44,3 +44,12 @@ $ brain-progression
 Правила игры: дается ряд чисел образующий арифметическую прогрессию, в котором одно число неизвестно. Определите это число.
 
 [![asciicast](https://asciinema.org/a/Jiq3iVcxr10LLkO1OwwF1pR4B.svg)](https://asciinema.org/a/Jiq3iVcxr10LLkO1OwwF1pR4B)
+
+### brain-prime
+```
+$ brain-prime
+```
+
+Правила игры: дается число, ответьте yes если оно простое, no если нет. Простое число - число которое делится без остатка только на себя и единицу.
+
+[![asciicast](https://asciinema.org/a/opkufZNSkJPqWTJQ3g3TKgz4b.svg)](https://asciinema.org/a/opkufZNSkJPqWTJQ3g3TKgz4b)
