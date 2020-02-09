@@ -2,7 +2,10 @@
     "name": "rustem/php-project-lvl1",
     "description": "simple-cli-games",
     "license": "MIT",
-    "bin": ["bin/brain-even"],
+    "bin": [
+        "bin/brain-even",
+        "bin/brain-calc"
+           ],
     "authors": [
         {
             "name": "Rustem",
@@ -12,7 +15,8 @@
 	"autoload": {
             "files": [
                     "src/Cli.php",
-                    "src/games/Even.php"
+                    "src/games/Even.php",
+                    "src/games/Calc.php"
                     ]
     },
     "require": {
