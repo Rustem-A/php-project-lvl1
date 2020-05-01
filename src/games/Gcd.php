@@ -12,7 +12,6 @@ function play()
         $num1 = rand(9, 99);
         $num2 = rand(9, 99);
 
-
         for ($i = 1; $i <= $num1; $i++) {
             if ($num1 % $i == 0) {
                 $dividersNum1[] = $i;
